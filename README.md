@@ -1,18 +1,22 @@
 # binclude
 binclude converts binary files to C/C++ arrays
 
-the program can be built simply with..
+Sometimes we need the binary of a file directly embedded in our C/C++ applications. This tiny program can do that for us.
+
+The program can be built simply with..
 
     gcc binclude.c -o binclude
     
-for usage, run without any arguments..
+For usage, run without any arguments..
 
     ./binclude 
+
+Which outputs..
 
     binclude converts binary files to C/C++ arrays
         usage:  binclude [filename] [array name] [optional column width] > target.c
 
-then run binclude with any binary file you need as data in your C/C++ program, optionaly with the column width. This defaults to 8.
+Then run binclude with any binary file you need as data in your C/C++ program, optionaly with the column width. This defaults to 8.
 
     ./binclude monty.prg monty 4
     
@@ -35,9 +39,11 @@ This will output to stdout..
         0x00,0x00
     };
 
-To write this to a file....
+To write this to a file...
 
     ./binclude monty.prg monty 4 >monty.c
+
+Should you need different types defined etc it would be very simple for you to edit the source of binclude to meet your needs.
 
 Aaaand we're done.
 
