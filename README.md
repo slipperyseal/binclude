@@ -47,7 +47,7 @@ Should you need different types defined etc it would be very simple for you to e
 
 Since this is really boring and you read this far, here's a link to a music video I made..
 
-[![Dirty Bokeh](http://kamome.slipperyseal.net/dirty-bokeh2.jpg)](http://www.youtube.com/watch?v=DRQv5uO5xM0)
+[![Dirty Bokeh](http://kamome.slipperyseal.net/dirty-bokeh1.jpg)](http://www.youtube.com/watch?v=DRQv5uO5xM0)
 
 
 
