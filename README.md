@@ -45,7 +45,4 @@ To write this to a file...
 
 Should you need different types defined etc it would be very simple for you to edit the source of binclude to meet your needs.
 
-Since this is really boring and you read this far, here's a link to a music video I made..
-
-[![Dirty Bokeh](https://storage.googleapis.com/kyoto.catchpole.net/dirty-bokeh1.jpg)](http://www.youtube.com/watch?v=DRQv5uO5xM0)
 
